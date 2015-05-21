@@ -14,6 +14,7 @@
 		3A07DF231B0DBDD40096A6F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A07DF221B0DBDD40096A6F3 /* Images.xcassets */; };
 		3A07DF261B0DBDD40096A6F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A07DF241B0DBDD40096A6F3 /* LaunchScreen.xib */; };
 		3A07DF321B0DBDD40096A6F3 /* Not2048Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A07DF311B0DBDD40096A6F3 /* Not2048Tests.m */; };
+		3A07DF3F1B0DBF690096A6F3 /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A07DF3E1B0DBF690096A6F3 /* Box.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		3A07DF2B1B0DBDD40096A6F3 /* Not2048Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Not2048Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A07DF301B0DBDD40096A6F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A07DF311B0DBDD40096A6F3 /* Not2048Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Not2048Tests.m; sourceTree = "<group>"; };
+		3A07DF3D1B0DBF690096A6F3 /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Box.h; path = Classes/Models/Box.h; sourceTree = "<group>"; };
+		3A07DF3E1B0DBF690096A6F3 /* Box.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Box.m; path = Classes/Models/Box.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,7 @@
 				3A07DF1A1B0DBDD40096A6F3 /* AppDelegate.m */,
 				3A07DF1C1B0DBDD40096A6F3 /* ViewController.h */,
 				3A07DF1D1B0DBDD40096A6F3 /* ViewController.m */,
+				3A07DF3B1B0DBF380096A6F3 /* Classes */,
 				3A07DF1F1B0DBDD40096A6F3 /* Main.storyboard */,
 				3A07DF221B0DBDD40096A6F3 /* Images.xcassets */,
 				3A07DF241B0DBDD40096A6F3 /* LaunchScreen.xib */,
@@ -117,6 +121,23 @@
 				3A07DF301B0DBDD40096A6F3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A07DF3B1B0DBF380096A6F3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3A07DF3C1B0DBF420096A6F3 /* Models */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		3A07DF3C1B0DBF420096A6F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A07DF3D1B0DBF690096A6F3 /* Box.h */,
+				3A07DF3E1B0DBF690096A6F3 /* Box.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A07DF1E1B0DBDD40096A6F3 /* ViewController.m in Sources */,
+				3A07DF3F1B0DBF690096A6F3 /* Box.m in Sources */,
 				3A07DF1B1B0DBDD40096A6F3 /* AppDelegate.m in Sources */,
 				3A07DF181B0DBDD40096A6F3 /* main.m in Sources */,
 			);
